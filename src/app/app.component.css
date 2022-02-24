@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;
+    height: 80px;
+}
+
+.container-grid{
+    width: 1700px;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+.menu{
+    width: 880px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 50px;
+}
+.banner{
+    height: 738px;
+    /* background-image: url(../img/image\ 1.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.texto-banner h1{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+#carrosel img{
+    display: none;
+}
+.banner-ativo{
+    display: flex;
+}
+.posicao-texto{
+    justify-content: flex-end;
+    height: 1200px;
+    text-align: center;
+}
+.texto-banner a{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 25px;
+}
+.promocoes{
+    /* background-image: url(../img/newbackground.png); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.promocoes img{
+    width: 680px;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.texto-promocoes h2{
+    color: white;
+    font-size: 70px;
+    font-family: 'Roboto', sans-serif;
+}
+.texto-promocoes p{
+    color:white;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 30px;
+}
+.texto-promocoes a{
+    font-size: 30px;
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+.barras{
+       width: 50px;
+       display: none;
+   }
+.posicionamento-header{
+       position:relative;
+   }
+.cadastro-promocoes{
+       background-color: red;
+       background-size: cover;
+       display: flex;
+       justify-content: center;
+   }
+.cadastro{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-left: 450px;
+    margin-top: 10px;
+   }
+   .cadastro a{
+       color: black;
+   }
+   .cadastro-promocoes img{
+       width: 100px;
+   }
+   .secao-itens{
+       display: flex;
+       justify-content: space-between;
+       /* background: url(..//img/newbackground.png); */
+       background-size: 1903px;
+       background-position: cover;
+       background-repeat: no-repeat;
+       font-family:'Roboto' sans-serif;
+       color:white;
+   }
+   .content-itens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+   .carditens img{
+       width:350px;
+       box-shadow: 0px 0px 10px whitesmoke;
+   }
+   .carditens h3{
+       font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+   }
+   footer{
+       background-color: black;
+       color:white;
+   }
+   .rodape{
+       display: flex;
+       justify-content: space-between;
+       padding: 16px;
+   }
+   .links-footer a{
+       color:white;
+       text-decoration: none;
+   }
+   .links-footer{
+       display: flex;
+       justify-content: space-between;
+       width: 400px;
+    }
+    .redes-sociais a{
+        display: flex;
+        justify-content: space-between;
+    }
+    .about-us{
+        margin-left: 250px;
+        margin-right: 350px;
+    }
+@media screen and (max-width: 1200px) {
+   .container-grid{
+       width: 90%;
+   } 
+   .menu a{
+       font-size:16px;
+   }
+   
+   .logo{
+       width: 200px;
+   }
+}
+@media screen and (max-width: 768px) {
+    .container-grid{
+        width: 90%;
+    }
+    .barras{
+        display: inline-block;
+        width: 70px;
+    }
+    .menu{
+        display: none;
+        flex-direction: column;
+        width: 250px;
+        position:absolute;
+        top:0;
+        right: 60px;
+        background-color: gray;
+    }
+    .menu a{
+        text-align: center;
+        padding: 15px;
+    }
+    .menu-ativo{
+        display: flex;
+    }
+}

@@ -33,7 +33,7 @@ header{
 }
 .banner{
     height: 738px;
-    background-image: url(../img/image\ 1.png);
+    /* background-image: url(../img/image\ 1.png); */
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -64,7 +64,7 @@ header{
     padding: 25px;
 }
 .promocoes{
-    background-image: url(../img/newbackground.png);
+    /* background-image: url(../img/newbackground.png); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -124,7 +124,7 @@ header{
    .secao-itens{
        display: flex;
        justify-content: space-between;
-       background: url(..//img/newbackground.png);
+       /* background: url(..//img/newbackground.png); */
        background-size: 1903px;
        background-position: cover;
        background-repeat: no-repeat;
